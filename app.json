@@ -1,20 +1,20 @@
 {
   "expo": {
-    "name": "health-main",
-    "slug": "health-main",
+    "name": "MyApp",
+    "slug": "myapp",
+    "platforms": [
+      "android",
+      "ios"
+    ],
     "version": "1.0.0",
+    "android": {
+      "package": "com.yourname.myapp",
+      "versionCode": 1
+    },
     "extra": {
       "eas": {
-        "projectId": "6801ea59-781a-47a8-b1aa-95b5f7279ea8"
+        "projectId": "378831b5-d39f-446a-a2fa-4b0081080224"
       }
-    },
-    "runtimeVersion": {
-      "policy": "appVersion"
-    },
-    "updates": {
-      "url": "https://u.expo.dev/6801ea59-781a-47a8-b1aa-95b5f7279ea8"
-    },
-    "android": {},
-    "ios": {}
+    }
   }
 }
